@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-    - sudo dnf install zip
   build:
     commands:
     - echo "This is build phase... Zipping my lambda function"
