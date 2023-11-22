@@ -3,8 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-    - apt-get install
-    - apt-get install zip
+    - yum install zip
   build:
     commands:
     - echo "This is build phase... Zipping my lambda function"
